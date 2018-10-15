@@ -17,7 +17,7 @@ let selectedanime = 0;
 linkinbox.addEventListener('click', function(e)
 {
     e.preventDefault();
-    let wonder = thanks.filter(anime => anime.deleted);
+    let wonder = thanks.filter(anime => !anime.deleted);
     selectedanime= 0;
     render(wonder);
 });
@@ -25,7 +25,7 @@ linkinbox.addEventListener('click', function(e)
 linktrash.addEventListener('click', function(e)
 {
     e.preventDefault();
-    let abox=thanks.filter(anime => !anime.deleted);
+    let abox=thanks.filter(anime => anime.deleted);
     selectedanime= 0;
     render(abox);
 });
