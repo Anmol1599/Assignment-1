@@ -139,7 +139,7 @@ if (thanks.length)
 else
     {
     let what = document.getElementById("main");
-    what.innerHTML='<h1>NO Thanks</h1>';
+    what.innerHTML='<h1>NO Games</h1>';
     }
 }
 
