@@ -36,7 +36,7 @@ linkCompose.addEventListener('click', function(e)
     console.log('clicked');
 })
 
-function composeform(entery) 
+function composeform(entry) 
 {
 entery.preventDefault();
 let form = 
